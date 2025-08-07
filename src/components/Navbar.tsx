@@ -129,7 +129,7 @@ const Navbar = () => {
       </div>
 
       <div
-       className={`fixed top-0 right-0 h-full w-72 bg-black/90 backdrop-blur-md text-white z-50 transform 
+       className={`fixed top-0 right-0 h-[40%] w-72 bg-black/90 backdrop-blur-md text-white z-50 transform 
         ${isMenuOpen ? "translate-x-0" : "translate-x-full"} 
         transition-transform duration-500 ease-in-out rounded-l-2xl shadow-lg`}>
 
